@@ -1,0 +1,256 @@
+i.fa{
+    font-family: fontawesome;
+  }
+/* CSS for custom nav */
+.custom-nav{
+    background-color: rgb(0, 0, 0);
+}
+.custom-nav li{
+    margin: 0px 30px 0px 30px;
+    padding: 0px;
+    line-height: 2.0;
+    font-family: 'Segoe UI';
+}
+.custom-nav button{
+    padding: 7px 9px;
+}
+.custom-nav-link{
+    color: #ffffff;
+}
+.custom-nav-link:hover{
+    color: #b3b3b3;
+    text-decoration: none;
+}
+.top-logo img{
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    float: left;
+}
+.top-logo p{
+    float: left;
+    color: #ffffff;
+    font-family: 'verdana';
+    font-size: 1.2em;
+    margin: 1px 20px 0px 5px;
+    padding: 0px;
+}
+
+.logo{
+    position: absolute;
+    width: 25%;
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+}
+
+/* Slider CSS */
+.slider-box{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.slider img{
+    height: 650px;
+}   
+.landing-text{
+    margin: 80px 40px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+.landing-text h1{
+    font-size: 3.1em;
+    padding: 0px;
+    font-weight: 300; 
+}
+.landing-text h3{
+    padding: 30px;
+}
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+    background-color: #F2F2F2;
+}
+.padding img{
+    width: 100%;
+}
+#fixed{
+    background: url('/img/bg-fix.jpg')no-repeat center center fixed;
+    height: 400px;
+    width: 100%;
+    background-size:cover;
+}
+.set-pic{
+    height: 300px;
+}
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin: .3rem 0 1rem 0;
+}
+.icon{
+    max-width: 200px;
+}
+.social img{
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    margin: 50px 35px;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    margin: .8rem 0rem;
+}
+.sec2-txt{
+    padding: 30px; 
+    text-align: center;
+}
+footer{
+    background-color: #F2F2F2;
+    color: #000000;
+    margin-top: 20px;
+}
+footer a{
+    color: #000000;
+}
+footer a:hover{
+    color: #000000;
+}
+.footer-copyright{
+    background-color: #bfbfbf;
+}
+#search i{
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+}
+#services{
+    background: url('/img/services.jpg')no-repeat center center fixed;
+    height: 500px;
+    position: relative;
+    width: 100%;
+    background-size: 1500px 700px;
+}
+/* Profile CSS */
+
+.profile-header-cover{  
+    background: url('/img/t1.jpg') center center;
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+}
+.widget-user .widget-user-image > img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ffffff;
+}
+.widget-user .widget-user-image {
+    position: absolute;
+    top: 75px;
+    left: 42%;
+    margin-left: -45px;
+}
+
+/* Google Maps CSS */
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+ #map {
+    height: 500px;
+  }
+
+
+  .chat-body{
+    height: 500px;
+    overflow-y: auto;
+  }
+  .small-thumb{
+    width: 50px;
+    height: 50px;
+  }
+  .med-pic{
+    width: 100%;
+    height: 100%;
+  }
+  .xs-img{
+    width: 50px;
+    height: 50px;
+  }
+
+  
+#chatBackground{
+    /* background: url('/images/chat-bg.png')no-repeat center center ;  */
+   background-color: #fafafa;
+   /* fixed removed */
+   background-size:cover;
+ }
+ .uploaded-pic-box img{
+   width: 500px;
+   height: 300px;
+ }
+ 
+ 
+ /* //Custom chat CSS */
+ .massenger-name{
+   margin: 0px;
+   padding: 0px;
+ }
+ .msg-text{
+   margin: 0px;
+   padding: 0px;
+ }
+ .msg-time{
+   margin: 0px;
+   padding: 0px;
+ }
+ .msg-bubble{
+   margin: 10px 10px;
+   padding: 3px 10px;
+ }
+ .msg-body{
+   margin: 0px 0px;
+   padding: 3px 10px;
+ }
+ .msg-sender{
+   /* // border: 1px solid	#000000; */
+   background-color: #05728F;
+   color: #ffffff;
+   border-radius: 5px;
+ }
+ .msg-receiver{
+   /* // border: 1px solid	#000000; */
+   color: #000000;
+   background-color: #EBEBEB;
+   border-radius: 5px;
+   
+ }
+
+ /* Media Queries */
+@media screen and (max-width: 600px) {
+    h1.carousel-text {
+        font-size: 20px;
+    }
+    h4.two-sec-text{
+        font-size: 15px;
+    }
+    .sec2-txt{
+        font-size: 14px;
+    }
+    h1.font-weight-bold{
+        font-size: 20px;
+    }
+    h1.display-5{
+        font-size: 20px;
+    }
+    h3.carousel-text{
+        font-size: 15px;
+    }
+}
+
